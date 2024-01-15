@@ -18,7 +18,7 @@
    Cmd
    dotnet run 
    ```
-3. 建置成功後，輸入網址http://localhost:4000/Swagger即可測試API
+3. 建置成功後，輸入網址 http://localhost:4000/Swagger 即可測試API
 
 ### API
 API將運行在http://localhost:4000/HelloWorld
