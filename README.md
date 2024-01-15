@@ -13,6 +13,10 @@
    Git Bash
    git clone https://github.com/sj2321672/MyHelloWorldAPI.git   
    ```
+2. 執行專案
+   ```
+   待補充
+   ```
 
 ### API
 API將運行在http://localhost:4000/HelloWorld
