@@ -18,3 +18,23 @@
 API將運行在http://localhost:4000/HelloWorld
 - **GET** `/HelloWorld`
   返回"Hello World"字串 
+
+### 使用ngrok讓外網可以使用API
+- [ngrok](https://ngrok.com/)
+  完成註冊後，
+1. 啟動ngrok，並輸入你的Authtoker：
+   ```
+   ngrok
+   ngrok config add-authtoken <Your-Authtoker>
+   ```
+
+2. 開放外網連線至你的localhost
+   ```
+   ngrok
+   ngrok http 4000
+   ```
+    這裡的4000為API專案預設的端口，可以在專案的launchSettings.json修改
+
+3. ngrok將提供一個公開的URL，類似於" https://8f97-2001-b011-e006-9f59-c472-e1b8-a83c-6bbc.ngrok-free.app "
+
+4. 輸入在URL後面加上/helloWorld即可使用此API
