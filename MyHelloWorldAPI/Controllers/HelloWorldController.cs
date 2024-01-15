@@ -8,6 +8,7 @@ namespace MyHelloWorldAPI.Controllers
     {
         #region GetAPI
 
+        // 測試git status
         // 回傳Hello World
         [HttpGet(Name = "GetHelloWorld")]
         public string Get()
