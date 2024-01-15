@@ -13,10 +13,12 @@
    Git Bash
    git clone https://github.com/sj2321672/MyHelloWorldAPI.git   
    ```
-2. 執行專案
+2. 在專案資料夾底下開啟Cmd輸入指令建置專案
    ```
-   待補充
+   Cmd
+   dotnet run 
    ```
+3. 建置成功後，輸入網址http://localhost:4000/Swagger即可測試API
 
 ### API
 API將運行在http://localhost:4000/HelloWorld
